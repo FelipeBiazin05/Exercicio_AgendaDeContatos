@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos EBAC</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="fonte-titulo" >
+                Agenda de contatos EBAC
+            </h1>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form-cadastro" action="">
+            <input type="text" required placeholder="Seu Nome Completo" name="NomeCompleto" id="Nome"><br>
+            <input type="tel" required placeholder="Seu Telefone" name="telefone" id="telefone"><br>
+            <button  id="botao-cadastrar" type="submit">Cadastrar</button>
+        </form>
+        <table>
+            <caption>Tabela De Contatos</caption>
+            <thead>
+                <tr>
+                    <th>Nome Completo:</th>
+                    <th>Telefone:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

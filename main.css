@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fonte-titulo {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 60px;
+    text-align: center;
+    margin-left: 35%;
+}  
+
+header {
+    display: flex;
+    background-color: rgb(177, 172, 166);
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+}
+
+form {
+    padding-top: 50px;
+}
+
+form input {
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    margin-left: 60%;
+}
+
+form button {
+    padding: 10px 63px;
+    margin-left: 60%;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(11, 250, 11);
+}
+
+table {
+    width: 140%;
+    padding: 100px 0;
+}
+
+table caption {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
